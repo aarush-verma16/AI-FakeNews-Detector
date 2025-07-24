@@ -1,0 +1,91 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Node.js (Frontend)
+frontend/node_modules/
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/build/
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Large files that exceed GitHub limits
+# Model files (use Git LFS or download separately)
+model/model.safetensors
+
+# Large data files
+data/isot_Fake.csv
+data/isot_True.csv
+data/train.csv
+
+# Large artifact files from notebooks
+notebooks/artifacts/*.pkl
+notebooks/artifacts/train_encodings.pkl
+notebooks/artifacts/test_encodings.pkl
+notebooks/artifacts/val_encodings.pkl
+notebooks/artifacts/train_df.pkl
+notebooks/artifacts/val_df.pkl
+
+# Temporary files
+*.tmp
+*.temp
